@@ -1,0 +1,51 @@
+@media screen and (max-width:1200px) {
+    .navbar {
+        flex-direction: column;
+    }
+    .right {
+        width: 100%;
+    }
+    .left img {
+        width: 15vw;
+    }
+    .right ul {
+        justify-content: center;
+    }
+    .right ul li a {
+        padding: 10px;
+        overflow: hidden;
+        font-size: 0.8rem;
+    }
+    .banner {
+        margin-top: 30px;
+    }
+    .about-us {
+        padding: 10px 0;
+    }
+    .about-flex img {
+        display: none;
+    }
+    .updates img {
+        display: none;
+    }
+    .about-us h1 {
+        padding-bottom: 20px;
+    }
+    .updates {
+        padding: 10px 0;
+    }
+    .updates h1 {
+        padding-bottom: 20px;
+    }
+    .stay-connected h1 {
+        font-size: 1.5rem;
+        padding-left: 2px;
+        margin-right: 10px;
+    }
+    .stay-connected-flex {
+        padding-left: 10px;
+    }
+    footer div.contact-details h1 {
+        font-size: 2.2rem;
+    }
+}
